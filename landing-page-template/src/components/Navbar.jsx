@@ -17,14 +17,14 @@ export default function Navbar() {
           {/* Desktop Nav */}
           <ul className="hidden md:flex space-x-8">
             {[
-              { label: "Nav1", href: "#nav1" },
+              { label: "Commitment", href: "#commitment" },
               { label: "Nav2", href: "#nav2" },
               { label: "Nav3", href: "#nav3" },
             ].map((item) => (
               <li key={item.label}>
                 <a
                   href={item.href}
-                  className="relative text-sm text-black px-3 py-2 transition-colors duration-300 hover:text-green-700"
+                  className="relative text-sm font-semibold text-black px-3 py-2 transition-colors duration-300 hover:text-green-700"
                 >
                   {item.label}
                 </a>
@@ -38,7 +38,7 @@ export default function Navbar() {
           {/* Desktop Sign Up */}
           <a
             href="#signup"
-            className="hidden md:inline-block pt-3 pl-5 pr-5 pb-3 rounded rounded-3xl bg-green-700 text-white text-sm hover:bg-green-800 rounded-2xl transition"
+            className="hidden md:inline-block pt-3 pl-5 pr-5 pb-3 rounded-3xl bg-green-700 text-white text-sm hover:bg-green-800 transition"
           >
             Sign Up
           </a>
@@ -70,7 +70,7 @@ export default function Navbar() {
       >
         <ul className="flex flex-col p-4 space-y-2">
           {[
-            { label: "Nav1", href: "#nav1" },
+            { label: "Commitment", href: "#commitment" },
             { label: "Nav2", href: "#nav2" },
             { label: "Nav3", href: "#nav3" },
             { label: "Nav4", href: "#nav4" },

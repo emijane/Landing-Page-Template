@@ -2,19 +2,18 @@ export default function Hero() {
     return (
       <section className="h-screen w-full">
         <div className="h-full flex flex-col md:flex-row">
-          
           {/* Text Section */}
           <div className="w-full md:w-1/2 h-full flex flex-col justify-center px-8 gap-4 md:ml-10">
             <span className="text-gray-600">Welcome to a <span className="text-green-700 font-bold text-lg">greener</span> tomorrow.</span>
             <h1 className="text-6xl font-bold tracking-tighter bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent leading-[4rem] lg:leading-[4.5rem]">
               For a planet that thrives, not just survives.
             </h1>
-            <p className="leading-7 text-gray-700">
+            <p className="leading-7 text-gray-600">
               From everyday tips to science-backed insights, we make it easy to understand how your choices impact the Earth. Whether you're just getting started or deep into sustainable living, we're here to guide, inspire, and remind you that progress beats perfection.
             </p>
             <div className="flex gap-6 mt-5">
-                <button className="pt-3 pl-5 pr-5 pb-3 rounded-3xl bg-green-700 text-white text-sm transform transition duration-300 hover:scale-105">Discover Green</button>
-                <button className="pt-3 pl-5 pr-5 pb-3 outline outline-green-700 rounded rounded-3xl text-green-700 text-sm transform transition duration-300 hover:scale-105">Browse Facts<i className="fa-solid fa-arrow-right ml-3"></i></button>
+                <button className="pt-3 pl-5 pr-5 pb-3 font-semibold rounded-3xl bg-green-700 hover:bg-green-600 text-white text-sm transform transition duration-300">Discover Green</button>
+                <button className="pt-3 pl-5 pr-5 pb-3 font-semibold outline outline-green-700 rounded-3xl text-green-700 text-sm transform transition duration-300 hover:bg-green-700 hover:text-white hover:outline-none">Browse Facts<i className="fa-solid fa-arrow-right ml-3"></i></button>
             </div>
           </div>
   

@@ -8,10 +8,10 @@ import "@fontsource/open-sans/400-italic.css"; // Specify weight and style
 
 function App() {
   return (
-    <div className='min-h-screen'>
+    <div className='min-h-screen pb-[10rem]'>
       <Navbar />
       <Hero />
-      <Commitment />
+      <Commitment id="commitment"/>
     </div>
   )
 }
