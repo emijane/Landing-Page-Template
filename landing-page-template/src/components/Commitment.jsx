@@ -3,8 +3,10 @@ export default function Commitment() {
         <div className="bg-gradient-to-r from-green-800 to-green-600">
             <div className="max-w-[90rem] p-20 flex flex-col md:flex-row mx-auto justify-between gap-10 md:gap-x-12">
                 <div>
+                    <p className="text-xs text-white/80 mb-3 font-semibold">Our Mission</p>
+                    <hr className="border-t border-white/20 my-6" />
                     <h2 className="text-4xl font-bold text-white mb-10">
-                    Our Commitment to a Healthier Planet Begins with Education, Awareness, and Action
+                    Empowering Change Through Environmental Education
                     </h2>
                     <button className="pt-3 pl-5 pr-5 pb-3 outline outline-white rounded-3xl text-white text-sm transform transition duration-300 hover:bg-white hover:outline-none hover:text-green-700 font-semibold">Learn More</button>
                 </div>
